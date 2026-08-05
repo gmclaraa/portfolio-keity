@@ -2,6 +2,7 @@ body{
     font-family: Fira Sans, Arial, sans-serif;
     margin: 0px;
     color: #141414;
+    margin-bottom: 1000px;
 }
 
 h1,h2,h3,p{
@@ -17,4 +18,12 @@ ul{
 img{
     max-width: 100%;
     display: block;
+}
+
+.subtitulo{
+    font-size: 8rem;
+    word-break: break-all;
+    line-height: 1;
+    text-transform: uppercase;
+     max-width: 4ch;
 }

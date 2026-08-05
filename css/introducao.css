@@ -11,7 +11,7 @@
 .introducao h1{
     font-size: 4.5rem;
     line-height: 1.125;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     position: relative;
 
 }
@@ -45,4 +45,20 @@
      grid-template-columns: 1fr 1fr;
     gap: 40px;
 }
+.introducao h1{
+    font-size: 2rem;
+}
+ .introducao h1::before{
+width: 30px;
+height: 10px;
+}
+}
+
+@media (max-width: 400px){
+    .introduca{
+        grid-template-columns: 1fr;
+    }
+    .introducao img{
+        display: none;
+    }
 }
