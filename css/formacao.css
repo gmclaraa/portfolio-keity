@@ -1,6 +1,8 @@
 .formacao{
     background-color: #141414;
     color: white;
+    position: relative; 
+    z-index: 10;
 }
 
 
