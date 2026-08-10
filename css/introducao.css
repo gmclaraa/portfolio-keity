@@ -9,11 +9,14 @@
 }
 
 .introducao h1{
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     line-height: 1.125;
     margin-bottom: 5px;
     position: relative;
 
+}
+.introducao img{
+    
 }
 
 .introducao h1::before{
@@ -54,11 +57,28 @@ height: 10px;
 }
 }
 
-@media (max-width: 400px){
-    .introduca{
+@media (max-width: 800px){
+    .introducao{
         grid-template-columns: 1fr;
+        text-align: center;
+        
     }
+    .introducao h1{
+        font-size: 3rem;
+        position: relative;
+
+    }
+
     .introducao img{
         display: none;
+    }
+    
+    .introducao h1::before{
+        position: absolute;
+        left: 1px;
+        width: 45px;
+        height: 40px;
+        top: 5px;
+
     }
 }
